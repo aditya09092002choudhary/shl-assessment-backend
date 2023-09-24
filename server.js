@@ -2,6 +2,7 @@ const express = require('express');
 const connectDB = require('./config/dbConnection');
 // const errorHandler = require('./middleware/errorHandler');
 const {filterProject} = require("./controllers/projectController");
+const fs = require('fs');
 const cors = require('cors');
 require("dotenv").config();
 
